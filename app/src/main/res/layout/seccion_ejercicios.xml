@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pecho"
+        android:textColor="#ffffff"
+        android:background="#e6282828"
+        android:textStyle="bold"
+        android:id="@+id/boton_pecho" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Espalda"
+
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:background="#e6282828"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hombros"
+        android:id="@+id/button2"
+        android:background="#e6282828"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</LinearLayout>
