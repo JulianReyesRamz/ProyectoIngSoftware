@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/portada_rutinas">
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Pres pecho"
+        android:layout_height="90dp"
         android:textColor="#ffffff"
-        android:background="#ad000000"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/img_boton_principiante"
+        android:id="@+id/boton_principiante" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:id="@+id/boton_intermedio"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/img_boton_intermedio" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:id="@+id/boton_avanzado"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/img_boton_avanzado" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:id="@+id/boton_modo_bestia"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/img_boton_modobestia" />
 
 </LinearLayout>

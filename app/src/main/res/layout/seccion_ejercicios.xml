@@ -1,35 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:clickable="false">
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="false"
+    android:baselineAligned="false"
+    android:background="#ffffff">
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Pecho"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
         android:textColor="#ffffff"
-        android:background="#e6282828"
         android:textStyle="bold"
-        android:id="@+id/boton_pecho" />
+        android:id="@+id/boton_pecho"
+        android:background="@drawable/ic_boton_pecho" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Espalda"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
 
-        android:id="@+id/button"
+        android:id="@+id/boton_espalda"
         android:layout_gravity="center_horizontal"
-        android:background="#e6282828"
+        android:background="@drawable/ic_boton_espalda"
         android:textColor="#ffffff"
         android:textStyle="bold" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Hombros"
-        android:id="@+id/button2"
-        android:background="#e6282828"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:id="@+id/boton_ejercicios_hombros"
+        android:background="@drawable/ic_boton_hombro"
         android:textColor="#ffffff"
         android:textStyle="bold" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:id="@+id/boton_bicep"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/ic_boton_brazo" />
 
 </LinearLayout>

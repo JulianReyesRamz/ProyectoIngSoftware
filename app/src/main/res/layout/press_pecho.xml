@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    >
+
+    <TextView
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="PRESS DE PECHO"
+        android:id="@+id/texto"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#f3000000"
+        android:textStyle="bold"
+        android:layout_weight="0.06"
+        android:textAlignment="center" />
+
+
+    <ImageView
+        android:layout_width="204dp"
+        android:layout_height="280dp"
+        android:id="@+id/imageView2"
+        android:background="@drawable/ic_press"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.14" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Informacion"
+        android:id="@+id/textView2"
+        android:textColorHighlight="#fc0606"
+        android:textColor="#f3000000"
+        android:layout_weight="0.06" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.12">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Este ejercicio solicita el pectoral mayor en todo su conjunto, el pecotoral menor, los triceps, el deltoides anterior y el coracobraquial"
+            android:id="@+id/textView3"
+            android:layout_gravity="left|top" />
+
+    </FrameLayout>
+
+</LinearLayout>
